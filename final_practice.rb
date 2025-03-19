@@ -15,7 +15,17 @@ puts first_laugh
 puts last_laugh
 
 
-# 1: Write a method named "greeting" that returns a string with a generic greeting. 
+# 1: Write a method named "greeting" that returns a string with a generic greeting.
+
+def greeting
+  "Hello, nice to see you."
+end
+
+first_greeting = greeting
+last_greeting = greeting
+
+puts first_greeting
+puts last_greeting
 
 # Call the method at least twice, and store the return value in a variable:
 
