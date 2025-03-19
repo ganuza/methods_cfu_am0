@@ -6,23 +6,28 @@
 # The downcase method is called on the string object "Hello World"
 # No arguments are passed; downcase has one clear job which is to lowercase all letters that exist in the String
 # The return value is "hello world"
-"Hello World".downcase
+puts "Hello World".downcase
+# like toLowerCase() in JS
+
+puts "Hello World".include?("Hello")
+# like .includes() in JS
+
+puts "Hello World".end_with?("Hello")
+# ruby string class method that checks if the specified string ends with one of the suffixes given or not
+# it can check words or parts of words
+
+puts "Hello World".end_with?("rld")
 
 
-"Hello World".include?("Hello")
+puts 12.even?
+# ruby method that checks if the integer is even
+
+puts 12.odd?
+# ruby method that checks if the integer is odd
 
 
-"Hello World".end_with?("Hello")
-
-
-"Hello World".end_with?("rld")
-
-
-12.even?
-
-
-18.next
-
+puts 18.next
+# ruby method that returns the next or immediate successor of a number
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
