@@ -44,13 +44,40 @@ puts 18.next
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+pet_name = "Chiara"
+email = "az@gmail.com"
 
+puts pet_name.upcase
+# The upcase method is called on the pet_name variable,
+# which stores the string "Chiara"
+# The upcase method returns a string with all of the
+# characters capitalized
+# In this case it returns "CHIARA"
+# The pust command prints the return value of the upcase
+# method to the console
+
+puts email.count("a")
+# The count method is called on the email variable which stores the string "az@gmail.com"
+# The count method returns a count of how many times a specific character(s) is found in a string
+# In this case, the count method returns 2
+# The puts command prints the return value of the count method to the console
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+age = 35
+count = 176
+
+puts 35.even?
+puts 35.odd?
+
+puts count.to_s
+puts count.integer?
+puts 4 + count
+puts 4 + "176"
 
 
 
